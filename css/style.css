@@ -30,7 +30,7 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none !important;
-    text-transform: capitalize;
+    
 }
 
 *::-webkit-scrollbar{
@@ -136,7 +136,7 @@ header.active {
 
 /* Start home section */
 .home {
-    background: url(../images/public/eye3.png) no-repeat;
+    background: url(../images/public/eye4.png) no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -306,6 +306,14 @@ header.active {
 
 .reviews .box-container .box p {
     padding: 2rem 0;
+    line-height: 2;
+    color: var(--black);
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.reviews .box-container .box li {
+    padding: 0;
     line-height: 2;
     color: var(--black);
     font-size: 1.5rem;
