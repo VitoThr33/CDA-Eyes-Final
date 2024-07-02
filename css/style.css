@@ -670,10 +670,10 @@ header.active {
     }
 
     .home {
-        background: url(../images/public/eye1.png) no-repeat;
-        background-size: contain;
+        background: url(../images/public/eye4.png) no-repeat;
+        background-size: auto;
         background-position: center;
-        min-height: 50vh;
+        min-height: 100vh;
         background-attachment: fixed;
     }
 }
