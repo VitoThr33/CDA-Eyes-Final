@@ -533,11 +533,11 @@ header.active {
        font-size: 50%;
     }
 
-    .home{
+   /* .home{
         background-position: center center;
         background-attachment: fixed;
         
-     }
+     }*/
 
    
     .home .content h3{
@@ -558,22 +558,6 @@ header.active {
     }
     
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -670,12 +654,19 @@ header.active {
     }
 
     .home {
+        background-size: auto 100%; /* Ensures the image covers the height */
+        background-position: center center; /* Focuses on the center of the image */
+        background-attachment: scroll; /* Make background scroll with content on small screens */
+        min-height: 100vh; /* Maintain full viewport height */
+    }
+
+    /*.home {
         background: url(../images/public/eye4.png) no-repeat;
         background-size: contain;
         background-position: center;
         min-height: 100vh;
         background-attachment: fixed;
         background-color: #080808;
-    }
+    }*/
 }
     
