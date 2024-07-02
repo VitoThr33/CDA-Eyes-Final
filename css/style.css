@@ -670,8 +670,8 @@ header.active {
     }
 
     .home {
-        background: url(../images/public/eye4.png) no-repeat;
-        
+        background: url(../images/public/eye1.png) no-repeat;
+        background-size: contain;
         background-position: center;
         min-height: 50vh;
         background-attachment: fixed;
