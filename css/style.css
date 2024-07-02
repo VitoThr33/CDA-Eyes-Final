@@ -637,7 +637,7 @@ header.active {
     }
 
     .home {
-        background: url(../images/public/eye3.png) no-repeat;
+        background: url(../images/public/eye4.png) no-repeat;
         background-size: cover;
         background-position: center;
         min-height: 100vh;
@@ -670,10 +670,10 @@ header.active {
     }
 
     .home {
-        background: url(../images/public/eye3.png) no-repeat;
-        background-size: cover;
+        background: url(../images/public/eye4.png) no-repeat;
+        
         background-position: center;
-        min-height: 100vh;
+        min-height: 50vh;
         background-attachment: fixed;
     }
 }
