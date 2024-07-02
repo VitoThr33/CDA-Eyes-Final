@@ -658,7 +658,7 @@ header.active {
         background-position: center center; /* Focuses on the center of the image */
         background-attachment: scroll; /* Make background scroll with content on small screens */
         min-height: 100vh; /* Maintain full viewport height */
-        background: url(../images/public/eye1.png) no-repeat;
+        background: url(../images/public/eye4.png) no-repeat;
     }
 
     /*.home {
