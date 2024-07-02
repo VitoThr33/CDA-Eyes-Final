@@ -671,10 +671,11 @@ header.active {
 
     .home {
         background: url(../images/public/eye4.png) no-repeat;
-        background-size: auto;
+        background-size: contain;
         background-position: center;
         min-height: 100vh;
         background-attachment: fixed;
+        background-color: #080808;
     }
 }
     
